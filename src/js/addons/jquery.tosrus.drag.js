@@ -124,7 +124,7 @@
 								else
 								{
 									var slideWidth = that.nodes.$slides.first().width(),
-										slides = Math.floor( ( Math.abs( _distance ) + ( slideWidth / 2 ) ) / slideWidth );	
+										slides = Math.floor( ( Math.abs( _distance ) + ( slideWidth * .95 ) ) / slideWidth );	
 								}
 		
 								if ( slides > 0 )
